@@ -1,0 +1,12 @@
+# Haskell build artefacts
+dist/
+dist-newstyle/
+.stack-work/
+*.o
+*.hi
+
+# Model output data
+results.csv
+runLocationShiftingModel-effect-load*.csv
+runLocationShiftingModel-effect-load-opt*.csv
+tables.tex
